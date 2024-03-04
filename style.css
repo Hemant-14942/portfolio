@@ -1,0 +1,43 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+.nav
+{
+    display: flex;
+    justify-content:space-between;
+    height:50px;
+    width: 100vw;
+    background-color: black;
+}
+.nav h1{
+    color:aqua;
+    padding:20px;
+
+}
+.butn button{
+    padding:10px;
+    background-color: aquamarine;
+}
+.butn
+{
+    height:50px ;
+    width:400px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+button:hover{
+    box-shadow:0px 3px 20px lightsalmon;
+    color:brown;
+    border-radius: 30px;
+    transition: 1s;
+    transform:scale(1.2) ;
+    background-color:blanchedalmond;
+}
+h1:hover{
+    transition: 2s;
+    transform: scale(1.2);
+}
+
